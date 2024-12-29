@@ -6,7 +6,7 @@ import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <StrictMode>
-        <BrowserRouter>
+        <BrowserRouter basename='/Tasks-Management-App'>
             <App />
         </BrowserRouter>
     </StrictMode>
